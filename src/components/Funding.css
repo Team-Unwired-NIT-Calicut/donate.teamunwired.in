@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap');
+.hero-container {
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url('/image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+.imgg{
+        width: 440px;
+        height: 279px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url('/fswinner.jpg');
+    }
+.text-box{
+    background-color: #B9B9B9;
+    height: 910px;
+    width: 500px;
+}
+.text1{
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    font-style: normal;
+    margin-left: 10px;
+    height: 82px;
+    width: 351px;
+}
+.accountdetails{
+    width: 490px;
+    height: 181px;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.qr{
+    width: 450px;
+    height: 613px;
+    margin-left: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/qrimg.png');
+}
+.caption{
+    width:500px;
+    height: 1316px;
+    color: white;
+    background-color: #080606;
+    font-size: 24px;
+    font-family: "Flamenco", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 10px;
+    padding-left: 13px;
+    padding-right: 5px;
+}
+
+
+
+@media (max-width: 768px){
+    /* .hero-container{
+        background-image: url('/HERO-MOBILE.png');
+    } */
+    .imgg{
+        width: 500px;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url('/fswinner.jpg');
+    }
+}
