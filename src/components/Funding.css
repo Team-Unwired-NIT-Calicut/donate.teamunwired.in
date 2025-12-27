@@ -18,8 +18,8 @@
     }
 .text-box{
     background-color: #B9B9B9;
-    height: 904px;
-    width: 440px;
+    height: 910px;
+    width: 500px;
 }
 .text1{
     font-family: "Bruno Ace SC", sans-serif;
@@ -41,15 +41,15 @@
     margin-bottom: 10px;
 }
 .qr{
-    width: 440px;
+    width: 450px;
     height: 613px;
-    margin-left: 0px;
+    margin-left: 25px;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('/qrimg.png');
 }
 .caption{
-    width:440px;
+    width:500px;
     height: 1316px;
     color: white;
     background-color: #080606;
@@ -64,5 +64,16 @@
 
 
 
-@media (min-width: 768px){
+@media (max-width: 768px){
+    /* .hero-container{
+        background-image: url('/HERO-MOBILE.png');
+    } */
+    .imgg{
+        width: 500px;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url('/fswinner.jpg');
+    }
 }
