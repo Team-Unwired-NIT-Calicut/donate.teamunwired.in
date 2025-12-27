@@ -6,7 +6,6 @@ const Hero = () => {
       <div className="imgg"></div>
       <div className="text-box">
         <h1 className="text1">SUPPORT OUR DREAMS</h1>
-        <br></br>
         <div className='accountdetails'>
           BENEFICIARY NAME : SAE INDIA<br></br>COLLEGIATE CLUB<br></br>IFSC CODE : SBIN0002207 <br></br>ACCOUNT NUMBER : 30027869772 BRANCH NUMBER: 2207
         </div>
