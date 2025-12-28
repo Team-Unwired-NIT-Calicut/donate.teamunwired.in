@@ -1,10 +1,12 @@
 import './Funding.css';
+import FundraiserProgress from './FundraiserProgress.jsx';
 const Hero = () => {
   return (
     <>
     <div className="hero-container">
       <div className="imgg"></div>
       <div className="text-box">
+        <FundraiserProgress />
         <h1 className="text1">SUPPORT OUR DREAMS</h1>
         <div className='accountdetails'>
           BENEFICIARY NAME : SAE INDIA<br></br>COLLEGIATE CLUB<br></br>IFSC CODE : SBIN0002207 <br></br>ACCOUNT NUMBER : 30027869772 BRANCH NUMBER: 2207

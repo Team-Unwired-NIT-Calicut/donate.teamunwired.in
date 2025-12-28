@@ -14,8 +14,7 @@
     }
 .text-box{
     background-color: #B9B9B9;
-    height: 910px;
-    width: auto;
+    height: 1048px;
 }
 .text1{
     font-family: "Bruno Ace SC", sans-serif;
@@ -68,7 +67,8 @@
         background-image: url('/fswinner.jpg');
     }
     .text-box{
-    height: 910px;
+    background-color: #B9B9B9;
+    height: 1048px;
     width: 1300px;
     }
     .text1{
@@ -113,15 +113,15 @@
 }
 @media (max-width: 513px){
     .imgg{
-        width: 500px;
+        width: 540px;
         height: 279px;
     }
-.text-box{
+    .text-box{
     background-color: #B9B9B9;
-    height: 910px;
-    width: 500px;
-}
-.text1{
+    height: 1048px;
+    width: 540px;
+    }
+    .text1{
     font-family: "Bruno Ace SC", sans-serif;
     font-weight: 500;
     font-size: 36px;
@@ -150,7 +150,7 @@
     background-image: url('/qrimg.png');
 }
 .caption{
-    width:500px;
+    width:540px;
     height: 1316px;
     color: white;
     background-color: #080606;

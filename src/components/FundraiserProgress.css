@@ -1,0 +1,79 @@
+.fundraiser-wrapper {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, sans-serif;
+  background: #e8f0f5;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fundraiser-card {
+  background: #e8f0f5;
+  border-radius: 30px;
+  padding: 24px;
+  width:500px;
+}
+
+.fundraiser-amount {
+  margin-bottom: 16px;
+}
+
+.current-amount {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.goal-amount {
+  font-size: 16px;
+  color: #666;
+  margin-left: 4px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 12px;
+  background: #d0d0d0;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 16px 0;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #10b981 0%, #059669 100%);
+  border-radius: 6px;
+  transition: width 0.5s ease;
+}
+
+.fundraiser-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #4a5568;
+  font-size: 15px;
+}
+
+.supporters {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.supporter-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.days-left {
+  font-weight: 500;
+}
+@media (min-width: 768px) and (max-width: 1439px){
+    .fundraiser-wrapper{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
