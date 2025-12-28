@@ -61,7 +61,7 @@
 @media (min-width: 768px) and (max-width: 1439px) {
   .imgg{
         width: 1300px;
-        height: 700px;
+        height: 480px;
         background-size: cover;
         background-repeat: no-repeat;
         background-image: url('/fswinner.jpg');
@@ -74,7 +74,7 @@
     .text1{
     font-weight: 500;
     font-size: 50px;
-    margin-left: 20px;
+    margin-left: 260px;
     height: 82px;
     width: 1020px;
 }
@@ -85,13 +85,13 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-left: 50px;
+    margin-left: 450px;
     margin-bottom: 10px;
 }
 .qr{
     width: 450px;
     height: 613px;
-    margin-left: 50px;
+    margin-left: 450px;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('/qrimg.png');
