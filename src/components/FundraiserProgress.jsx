@@ -5,7 +5,7 @@ function FundraiserProgress() {
   const [currentAmount] = useState(0);
   const goalAmount = 200000;
   const supporters = 0;
-  const daysLeft = 23;
+  const daysLeft = 13;
 
   const progressPercentage = (currentAmount / goalAmount) * 100;
 
@@ -14,7 +14,6 @@ function FundraiserProgress() {
   };
 
   return (
-    <div className="fundraiser-wrapper">
       <div className="fundraiser-card">
         <div className="fundraiser-amount">
           <span className="current-amount">
@@ -47,7 +46,6 @@ function FundraiserProgress() {
           <div className="days-left">{daysLeft} days left</div>
         </div>
       </div>
-    </div>
   );
 }
 
