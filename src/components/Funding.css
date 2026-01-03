@@ -13,33 +13,36 @@
     background-repeat: no-repeat;
     background-image: url('/fswinner 2.png');
 }
-.text-box{
-    height: 1000px;
-    background-color: #BDBDBD;
-    border-radius: 0 0 70px 70px;
-}
 .text1{
     font-family: "Bruno Ace SC", sans-serif;
     font-weight:300;
     font-size: 96px;
     margin-left: 30px;
     height: 116px;
-    width: 1056px;
+    width: auto;
     margin-bottom: 10px;
 }
+.text-box{
+    height: 1000px;
+    background-color: #BDBDBD;
+    border-radius: 0 0 70px 70px;
+}
+
 .mk{
     display: flex;
     flex-direction: row;
     margin-top: 54px;
+    justify-content: space-evenly;
 }
 .accountdetails{
-    width: 884px;
-    height: 360px;
-    font-size: 48px;
+    width: 484px;
+    height: 240px;
+    font-size: 28px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-left: 64px;
+    margin-left: 54px;
+    margin-top: 10px;
 }
 .qr{
     width: 450px;
@@ -57,9 +60,9 @@
     font-family: "Bruno Ace SC", sans-serif;
     font-weight:300;
     font-size: 64px;
-    margin-left: 30px;
-    height: 116px;
-    width: 1056px;
+    height: 100px;
+    background-color: black;
+    margin-left: 10px;
 }
 .text-bg{
     background-color: black;
@@ -73,202 +76,150 @@
     font-family: "Flamenco", system-ui;
     font-weight: 400;
     font-style: normal; 
-    margin-left: 30px;
+ }
+ .caption-text{
+    margin-left: 10px;
  }
  .heading1{
     font-family: "Della Respira", serif;
     font-weight: 500;
     font-size: 30px;
+    margin-left: 10px;
  }
-@media screen and (min-width: 1258px) and (max-width: 1390px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+    .imgg {
+        height: 380px;
+        width: 100%;
+    }
+    .text1 {
+        font-size: 72px;
+        margin-left: 24px;
+        margin-bottom: 10px;
+    }
+    
     .accountdetails{
-    width: 800px;
-    height: 360px;
-    font-size: 40px;
-    margin-left: 44px;
+        width: 440px;
+        height: 360px;
+        font-size: 26px;
+        margin-left: 10px;
     }
     .qr{
-    width: 400px;
-    height: 560px;
+        width: 330px;
+        height: 450px;
     }
     .text-box{
-    height: 920px;
+        height: 800px;
     }
-}
+    .text2{
+        font-size: 45px;
+    }
+    .heading1{
+        font-size: 40px;
+    }
 
-@media screen and (min-width: 1096px) and (max-width: 1258px){
-    .imgg{
-    width: 1310px;
+}
+@media (min-width: 426px) and (max-width: 768px) {
+    .imgg {
+        width: 100%;
+        height: 360px;
+        background-size: cover;
+        background-position: center;
+    }
+    .text1 {
+        font-size: 52px;
+        margin-left: 24px;
+        margin-bottom: 0px;
     }
     .accountdetails{
-    width: 700px;
-    height: 360px;
-    font-size: 40px;
-    margin-left: 44px;
+        width: 337px;
+        height: 360px;
+        font-size: 20px;
+        margin-left: 10px;
     }
     .qr{
-    width: 323px;
-    height: 450px;
+        width: 250px;
+        height: 350px;
     }
     .text-box{
-    height: 840px;
-    width: 1310px;
+        height: 700px;
     }
-    .bg-text-box{
-    width: 1310px;
+    .text2{
+        font-size: 39px;
+        height: 8%;
     }
-    .text-bg{
-        width: 1310px;
-    }
+    
 }
+@media  (min-width: 426px) and (max-width:610px){
 
-@media screen and (min-width: 1024px) and (max-width: 1096px){
-    .imgg{
-    width: 1311px;
-    }
     .accountdetails{
-    width: 700px;
-    height: 360px;
-    font-size: 40px;
-    margin-left: 44px;
+        width: 337px;
+        height: 200px;
+        font-size: 20px;
+        margin-left: 10px;
     }
     .qr{
-    width: 323px;
-    height: 450px;
+        width: 250px;
+        height: 350px;
+    }
+    .mk{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    align-items: center;
     }
     .text-box{
-    height: 820px;
-    width: 1311px;
+        height: 900px;
     }
-    .text-bg{
-    width: 1311px;
-    }
-    .bg-text-box{
-    width: 1311px;
+    .text2{
+        font-size: 34px;
+        height: 10%;
+        margin-left: 15px;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media  (max-width: 426px){
     .imgg{
-    width: 1095px;
-    }
-    .accountdetails{
-    width: 700px;
-    height: 360px;
-    font-size: 35px;
-    margin-left: 30px;
-    }
-    .bg-text-box{
-    width: 1095px;
-    }
-    .qr{
-    width: 323px;
-    height: 450px;
-    }
-    .text-box{
-    height: 820px;
-    width: 1095px;
-    }
-    .text-bg{
-    width: 1095px;
-    }
-    .text1{
-    font-size: 76px;
-    width: 1050px;
-}
-}
-@media screen and (min-width: 425px) and (max-width: 768px){
-    .imgg{
-    width: 1095px;
-    }
-    .text-box{
-    height: 860px;
-    width: 1095px;
-    }
-    .accountdetails{
-    width: 600px;
-    height: 360px;
-    font-size: 35px;
-    margin-left: 20px;
-    }
-    .qr{
-    width: 360px;
-    height: 500px;
-    }
-    .text1{
-    font-size: 76px;
-    width: 1050px;
-    }
-    .bg-text-box{
-    width: 1095px;
-    }
-    .text-bg{
-    width: 1095px;
-    }
-}
-@media screen and (min-width: 320px) and (max-width: 425px){
-    .imgg{
-        width: 1100px;
-        height: 479px;
+        width: 100%;
+        height: 230px;
+        background-size: cover;
+        background-position: center;
         background-image: url('/fswinner 1.png');
     }
-.text-box{
-    background-color: #B9B9B9;
-    height: 2429px;
-    width: 1100px;
+    .text1 {
+        font-size: 37px;
+        margin-left: 24px;
+        margin-bottom: 0px;
+        height:12%;
+        width: 81%;
+    }
+    .accountdetails{
+        width: 330px;
+        height: 180px;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .qr{
+        width: 270px;
+        height: 380px;
+        margin-left: 40px;
+    }
+    .mk{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
-.mk{
-    display: block;
-}
-
-.text1{
-    font-weight: 500;
-    font-size: 100px;
-    margin-left: 10px;
-    height: 250px;
-    width: 800px;
-    margin-bottom:10px;
-    margin-left: 40px;
-}
-.accountdetails{
-    width: 990px;
-    height: 501px;
-    font-size: 60px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-left: 50px;
-    margin-bottom: 10px;
-}
-.qr{
-    width: 1020px;
-    height: 1413px;
-    margin-left: 40px;
-}
-.text-bg{
-    width: 1100px;
-}
-.bg-text-box{
-width: 1095px;
-}
-.caption{
-    width:auto;
-    height: 3216px;
-    font-size: 54px;
-    font-weight: 400;
-    font-style: normal; 
-    padding-top: 10px;
-    padding-left: 13px;
-    padding-right: 5px; 
+    .text-box{
+        height: 860px;
+    }
+    .text2{
+        font-size: 36px;
+        height: 20%;
+        margin-left: 10px;
     }
  .heading1{
-    font-weight: 500;
-    font-size: 60px;
+    font-size: 30px;
+    margin-left: 5px;
  }
- .text2{
-    font-weight:300;
-    font-size: 74px;
-    margin-left: 30px;
-    height: 250px;
-    width: 1056px;
-    }
 } 
