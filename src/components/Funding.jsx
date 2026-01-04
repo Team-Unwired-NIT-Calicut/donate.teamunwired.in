@@ -1,5 +1,6 @@
 import './Funding.css';
 import FundraiserProgress from './FundraiserProgress.jsx';
+import { useState } from "react";
 const images = [
   {
     id: 1,
@@ -32,7 +33,13 @@ const images = [
     alt: 'Misty landscape'
   },
 ];
+
+
+
 const Hero = () => {
+
+const [readMore, setReadMore] = useState(false);
+
   return (
     <>
     <div className="hero-container">
@@ -53,7 +60,63 @@ const Hero = () => {
         <h1 className="text2">SUPPORT OUR DREAMS</h1>
       <div className='caption'>
         <div className='heading1'>Who we are</div>
-        <p className='caption-text'><br></br> Team Unwired is a completely student-run Formula Student team from NIT Calicut, driven by a small group of passionate engineering students who design, build and race a single-seater formula-style race car from scratch every season.<br></br> The team represents NIT Calicut at premier national competitions like Formula Bharat and SUPRA SAEINDIA, competing against top engineering institutes from across India.<br></br> <br></br>Our 2026 season<br></br> In the 2026 season, Team Unwired will: Build a new, improved Formula Student race car, designed, manufactured and assembled entirely by students. Compete at Formula Bharat 2026 at Kari Motor Speedway, Coimbatore from January 21–26, 2026, a landmark 10th edition of India’s premier Formula Student competition.<br></br> Prepare to race again at SUPRA SAEINDIA 2026, scheduled in the mid‑July to mid‑August 2026 window.<br></br><br></br> Why we need your support now Unlike factory-backed teams, Team Unwired is fully student‑owned and self‑funded; the project depends entirely on sponsorships and individual contributions to become reality.<br></br><br></br> Immediate funding is critical in the coming weeks to: <br></br><br></br>Procure essential components: powertrain parts, suspension, brakes, steering, electronics, tyres, fasteners and raw materials for chassis and subsystems. Cover manufacturing, machining, fabrication, and testing expenses required to make the car reliable and safe. Manage logistics, tooling, safety gear, event fees and travel costs for the team and the vehicle during Formula Bharat 2026 and SUPRA 2026. Every contribution – whether small or large – directly goes into getting this year’s car built, tested and on track.<br></br><br></br> All funds raised through this campaign will be used solely for: vehicle design and development, component procurement, fabrication, testing and competition participation for the 2026 Formula Bharat and SUPRA seasons Be part of this journey. Fuel innovation, support student motorsport, and help Team Unwired make it to the grid in 2026.</p>
+          <p className="caption-text">
+            <br />
+            Team Unwired is a completely student-run Formula Student team from NIT Calicut,
+            driven by a small group of passionate engineering students who design, build
+            and race a single-seater formula-style race car from scratch every season.
+            <br />
+            The team represents NIT Calicut at premier national competitions like Formula
+            Bharat and SUPRA SAEINDIA, competing against top engineering institutes from
+            across India.
+            {/* READ MORE BUTTON */}
+            {!readMore && (
+              <span
+                className="read-more"
+                onClick={() => setReadMore(true)}
+              >
+                Read More
+              </span>
+            )}
+            {/* REMAINING CONTENT */}
+            {readMore && (
+              <>
+                <br /><br />
+                <strong>Our 2026 season</strong>
+                <br />
+                In the 2026 season, Team Unwired will:
+                <br />
+                Build a new, improved Formula Student race car, designed, manufactured
+                and assembled entirely by students.
+                <br />
+                Compete at Formula Bharat 2026 at Kari Motor Speedway, Coimbatore from
+                January 21–26, 2026.
+                <br />
+                Prepare to race again at SUPRA SAEINDIA 2026.
+                <br /><br />
+
+                <strong>Why we need your support now</strong>
+                <br />
+                Team Unwired is fully student-owned and self-funded; the project depends
+                entirely on sponsorships and individual contributions.
+                <br /><br />
+
+                Immediate funding is critical to procure components, manufacturing,
+                testing, logistics, safety gear, and event participation.
+                <br /><br />
+
+                Every contribution directly supports building and racing the 2026 car.
+                <br /><br />
+
+                <span
+                  className="read-more"
+                  onClick={() => setReadMore(false)}
+                >
+                  Read Less
+                </span>
+              </>
+            )}
+          </p>
       </div>
       </div>
        <div className="gallery">

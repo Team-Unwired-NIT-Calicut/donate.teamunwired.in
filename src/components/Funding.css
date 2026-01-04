@@ -336,3 +336,13 @@
     font-size: 0.9rem;
   }
 }
+.read-more {
+  color: #7D9BCC;
+  cursor: pointer;
+  font-weight: 600;
+  margin-left: 6px;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
