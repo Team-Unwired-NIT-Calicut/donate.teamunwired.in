@@ -27,11 +27,6 @@ const images = [
     url: '/img5.png',
     alt: 'Mountain peak'
   },
-  {
-    id: 6,
-    url: '/img2.png',
-    alt: 'Misty landscape'
-  },
 ];
 
 
