@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import "./FundraiserProgress.css";
 
 function FundraiserProgress() {
-  const [currentAmount] = useState(0);
+  const [currentAmount] = useState(5000);
   const goalAmount = 200000;
-  const supporters = 0;
+  const supporters = 2;
   const daysLeft = 13;
 
   const progressPercentage = (currentAmount / goalAmount) * 100;
