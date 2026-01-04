@@ -1,31 +1,28 @@
 import './Funding.css';
 import FundraiserProgress from './FundraiserProgress.jsx';
 import { useState } from "react";
+import { Youtube, Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+
 const images = [
   {
     id: 1,
     url: '/img1.png',
-    alt: 'Mountain landscape'
   },
   {
     id: 2,
     url: '/img2.png',
-    alt: 'Nature path'
   },
   {
     id: 3,
     url: '/img3.png',
-    alt: 'Sunset sky'
   },
   {
     id: 4,
     url: '/img4.png',
-    alt: 'Forest trail'
   },
   {
     id: 5,
     url: '/img5.png',
-    alt: 'Mountain peak'
   },
 ];
 
@@ -124,7 +121,29 @@ const [readMore, setReadMore] = useState(false);
               />
             </div>
           ))}
-        </div> 
+        </div>
+        <div className="footer-divider"></div>
+        <footer>
+        <div className="footer-bottom">
+          <p className="footer-copyright">
+            Copyright © 2025 Team Unwired. All rights reserved.
+          </p>
+          <div className="footer-social-icons">
+            <a href="https://www.youtube.com/@team_unwirednitc" className="footer-icon-link" aria-label="YouTube">
+              <Youtube size={24} />
+            </a>
+            <a href="https://www.facebook.com/teamunwired/" className="footer-icon-link" aria-label="Facebook">
+              <Facebook size={24} />
+            </a>
+            <a href="https://www.instagram.com/teamunwired_nitcalicut/" className="footer-icon-link" aria-label="Instagram">
+              <Instagram size={24} />
+            </a>
+            <a href="https://www.linkedin.com/company/team-unwired/?utm_source=ig&utm_medium=social&utm_content=link_in_bio" className="footer-icon-link" aria-label="LinkedIn">
+              <Linkedin size={24} />
+            </a>
+          </div>
+        </div>
+        </footer>
     </div>
     </>
    
