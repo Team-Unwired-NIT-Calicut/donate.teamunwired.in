@@ -38,7 +38,7 @@ const [readMore, setReadMore] = useState(false);
       <div className="imgg"></div>
       <div className='bg-text-box'>
         <div className="text-box">
-        <h1 className="text1">CROWD FUNDING</h1>
+        <div className="text1">CROWD FUNDING</div>
         <FundraiserProgress />
         <div className='mk'>
           <div className='accountdetails'>
@@ -49,18 +49,25 @@ const [readMore, setReadMore] = useState(false);
         </div>
       </div>
       <div className='text-bg'>
-        <h1 className="text2">SUPPORT OUR DREAMS</h1>
+        {/* <h1 className="text2">SUPPORT OUR DREAMS</h1> */}
       <div className='caption'>
-        <div className='heading1'>Who we are</div>
+        <div className='heading1'></div>
           <p className="caption-text">
-            <br />
-            Team Unwired is a completely student-run Formula Student team from NIT Calicut,
-            driven by a small group of passionate engineering students who design, build
-            and race a single-seater formula-style race car from scratch every season.
-            <br />
-            The team represents NIT Calicut at premier national competitions like Formula
-            Bharat and SUPRA SAEINDIA, competing against top engineering institutes from
-            across India.
+            <h2>Who we are</h2>
+<p>
+    Team Unwired is a completely student-run Formula Student team from NIT Calicut,
+    driven by a passionate group of engineering students. The team designs, builds,
+    and races a single-seater formula-style race car entirely from scratch.
+  </p>
+  <br />
+  <p>
+    We proudly represent NIT Calicut at premier national Formula Student competitions,
+    competing against top engineering institutes across India:
+  </p>
+  <ul>
+    <li>Formula Bharat</li>
+    <li>SUPRA SAEINDIA</li>
+  </ul>
             {/* READ MORE BUTTON */}
             {!readMore && (
               <span
@@ -73,32 +80,72 @@ const [readMore, setReadMore] = useState(false);
             {/* REMAINING CONTENT */}
             {readMore && (
               <>
-                <br /><br />
-                <strong>Our 2026 season</strong>
-                <br />
-                In the 2026 season, Team Unwired will:
-                <br />
-                Build a new, improved Formula Student race car, designed, manufactured
-                and assembled entirely by students.
-                <br />
-                Compete at Formula Bharat 2026 at Kari Motor Speedway, Coimbatore from
-                January 21–26, 2026.
-                <br />
-                Prepare to race again at SUPRA SAEINDIA 2026.
-                <br /><br />
+                  <h2>Our 2026 Season</h2>
 
-                <strong>Why we need your support now</strong>
-                <br />
-                Team Unwired is fully student-owned and self-funded; the project depends
-                entirely on sponsorships and individual contributions.
-                <br /><br />
+  <p>
+    For the 2026 season, Team Unwired is committed to pushing performance, reliability,
+    and innovation further than ever before.
+  </p>
 
-                Immediate funding is critical to procure components, manufacturing,
-                testing, logistics, safety gear, and event participation.
-                <br /><br />
+  <ul>
+    <li>
+      Designing and building a new, improved Formula Student race car — fully engineered,
+      manufactured, and assembled by students.
+    </li>
+    <li>
+      Competing at Formula Bharat 2026, to be held at Kari Motor Speedway, Coimbatore,
+      from January 21–26, 2026 — a landmark achievement for India’s premier Formula Student competition.
+    </li>
+    <li>
+      Preparing for SUPRA SAEINDIA 2026, scheduled between mid-July and mid-August 2026.
+    </li>
+  </ul>
+<br/>
+  <h3>Why We Need Your Support Now</h3>
+<br/>
+  <p>
+    Unlike factory-backed teams, Team Unwired is fully student-owned and self-funded.
+    The success of our project depends entirely on sponsorships and individual contributions.
+  </p>
+<br />
+  <p><strong>Immediate funding is critical to:</strong></p>
 
-                Every contribution directly supports building and racing the 2026 car.
-                <br /><br />
+  <ul>
+    <li>Procure essential components such as:
+      <ul>
+        <li>Powertrain parts</li>
+        <li>Suspension, brakes, and steering systems</li>
+        <li>Electronics, tyres, fasteners, and raw materials for chassis and subsystems</li>
+      </ul>
+    </li>
+    <li>Cover costs related to:
+      <ul>
+        <li>Manufacturing, machining, and fabrication</li>
+        <li>Testing to ensure reliability and safety</li>
+        <li>Managing operational expenses</li>
+        <li>Logistics and transportation</li>
+        <li>Tooling and safety gear</li>
+        <li>Event registration fees and travel costs</li>
+      </ul>
+    </li>
+  </ul>
+<br/>
+  <h3>How Your Contribution Helps</h3>
+<br/>
+
+  <p>
+    Every contribution — big or small — directly helps get our car built, tested,
+    and on track.
+  </p>
+
+  <p><strong>All funds raised will be used exclusively for:</strong></p>
+
+  <ul>
+    <li>Vehicle design and development</li>
+    <li>Component procurement</li>
+    <li>Fabrication and testing</li>
+    <li>Participation in Formula Bharat 2026 and SUPRA SAEINDIA 2026</li>
+  </ul>
 
                 <span
                   className="read-more"
