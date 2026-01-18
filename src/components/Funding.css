@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap');
+/* from here */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
     h1, h2 {
       font-family: Arial, sans-serif;
       line-height: 1.6;
@@ -15,88 +17,173 @@
     width: 100vw;
     height: 100vh;
 }
-.imgg{
+ .big-big-box{
+    display: flex;
+    flex-direction: row;
+  }
+.big-right-box{
+    display: flex;
+    flex-direction: column;
+    width:40px;
+    height: 6950px;
+    background-color: #C91E21;
+}
+.big-left-box{
+    display: flex;
+    flex-direction: column;
+    height: 6950px;
+    background-color: #ffffff;
+    border-radius: 0 0 70px 70px;
+}
+.crowd-funding-box{
+    background-color: #F3F6FD;
+    height: 174px;
     width: auto;
-    height: 529px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('/fswinner 2.png');
+
 }
 .text1{
+    color: #8C0100;
     font-family: "Bruno Ace SC", sans-serif;
     font-weight:300;
     font-size: 96px;
-    margin-left: 30px;
-    height: 116px;
+    margin-left: 86px;
+    height: 174px;
     width: auto;
-    margin-bottom: 10px;
+    background-color: #F3F6FD;
+    padding: 20px;
 }
-.text-box{
-    height: 1000px;
-    background-color: #BDBDBD;
-    border-radius: 0 0 70px 70px;
+.box-heading{
+  display: flex;
+  flex-direction: row;
+  margin-left: 118px;
+  margin-top: 20px;
 }
 
-.mk{
-    display: flex;
-    flex-direction: row;
-    margin-top: 54px;
-    justify-content: space-evenly;
+.box-logo{
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('/box-logo.png');
+  margin-right: 10px;
 }
-.accountdetails{
-    width: 484px;
-    height: 240px;
-    font-size: 28px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-left: 54px;
-    margin-top: 10px;
+.team-name{
+  margin-top: 10px;
+   font-family: 'Inter', sans-serif;
+  font-weight: 700;        /* Bold */
+  font-size: 24px;
+  line-height: 1;          /* Closest to 0% / tight line height */
+  letter-spacing: -0.09em;
 }
-.qr{
-    width: 450px;
-    height: 613px;
-    /* margin-left: 25px; */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('/qrimg.png');
+.title-caption{
+  margin-left: 110px;
+  margin-top: 35px;
+  height: 31px;
+  width: 431px;
+   font-family: 'Inter', sans-serif;
+  font-weight: 700;          /* Bold */
+  font-size: 24px;
+  line-height: 1.259;        /* 125.9% */
+  letter-spacing: 0.05em;
 }
-.bg-text-box{
-    background-color: black;
+.image-container {
+  position: relative;
+  margin-left: 10px;
+  width: 460px;
+  /* aspect-ratio: 3/4; */
+  margin-top: 15px;
+  margin-left: 110px;
+  border-radius: 12px;
+  /* overflow: hidden; */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
-.text2{
-    color: white;
-    font-family: "Bruno Ace SC", sans-serif;
-    font-weight:300;
-    font-size: 64px;
-    height: 100px;
-    background-color: black;
-    margin-left: 10px;
+.main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.text-bg{
-    background-color: black;
+
+.content {
+  max-width: 760px;
+  margin-left: 110px;
+  margin-top: 20px;
 }
-.caption{
-    width:auto;
-    height: auto;
-    color: white;
-    background-color: #080606;
-    font-size: 24px;
-    font-family: "Faustina", serif;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal; 
- }
- .caption-text{
-    margin-left: 10px;
- }
- .heading1{
-    font-family: "Della Respira", serif;
-    font-weight: 500;
-    font-size: 30px;
-    margin-left: 10px;
- }
-@media (min-width: 768px) and (max-width: 1024px) {
+
+h3,
+p,
+li {
+  font-family: 'Lexend Giga', sans-serif;
+  font-weight: 500;          /* Medium */
+  font-size: 24px;
+  line-height: 1.82;         /* 182% */
+  letter-spacing: -0.09em;   /* -9% */
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.images{
+  margin-left: 110px;
+}
+.footer-divider {
+  height: 1px;
+  background-color: #8b3a3a;
+}
+.aa{
+  display: flex;
+  flex-direction: column ;
+  align-items: end;
+  margin-right: 30px;
+}
+.big-box{
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+}
+.box2{
+  margin-top:50px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f5f7fa;
+}
+
+.footer-bottom p {
+  font-family: 'Lexend Giga', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #b00000; /* red text */
+  margin: 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+  margin-right: 10px;
+}
+
+.social-icons a {
+  color: #b04a4a;
+  font-size: 28px;
+  text-decoration: none;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-icons a:hover {
+  color: #8b0000;
+  transform: scale(1.1);
+}
+
+
+ /* .qr-code{
+    margin-bottom: 100px;
+ } */
+
+/* @media (min-width: 768px) and (max-width: 1024px) {
     .imgg {
         height: 380px;
         width: 100%;
@@ -409,4 +496,4 @@
   .footer-social-icons {
     gap: 14px;
   }
-}
+} */
