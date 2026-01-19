@@ -22,16 +22,17 @@
     flex-direction: row;
   }
 .big-right-box{
+    position: fixed;
     display: flex;
     flex-direction: column;
-    width:40px;
-    height: 6950px;
+    width:15px;
+    height: 7813px;
     background-color: #C91E21;
 }
 .big-left-box{
     display: flex;
     flex-direction: column;
-    height: 6950px;
+    height: 7813px;
     background-color: #ffffff;
     border-radius: 0 0 70px 70px;
 }
@@ -150,9 +151,10 @@ li {
   align-items: center;
   padding: 20px 40px;
   background-color: #f5f7fa;
+  width: 100%;
 }
 
-.footer-bottom p {
+.copyright {
   font-family: 'Lexend Giga', sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -178,6 +180,171 @@ li {
   transform: scale(1.1);
 }
 
+@media (min-width: 330px) and (max-width: 430px){
+   .big-big-box{
+    display: flex;
+    flex-direction: row;
+  }
+.big-right-box{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width:15px;
+    height: 7513px;
+    background-color: #C91E21;
+}
+.big-left-box{
+    display: flex;
+    flex-direction: column;
+    height: 7513px;
+    background-color: #ffffff;
+    border-radius: 0 0 70px 70px;
+}
+.crowd-funding-box{
+    background-color: #F3F6FD;
+    height: 104px;
+    width: auto;
+
+}
+.text1{
+    font-weight:300;
+    font-size: 46px;
+    margin-left: 55px;
+    height: 104px;
+    width: 100%;
+    padding: 20px;
+}
+.box-heading{
+  display: flex;
+  flex-direction: row;
+  margin-left: 118px;
+  margin-top: 20px;
+}
+
+.box-logo{
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('/box-logo.png');
+  margin-right: 10px;
+}
+.team-name{
+  margin-top: 10px;
+   font-family: 'Inter', sans-serif;
+  font-weight: 700;   
+  font-size: 24px;
+  line-height: 1;         
+  letter-spacing: -0.09em;
+}
+.title-caption{
+  margin-left: 110px;
+  margin-top: 35px;
+  height: 31px;
+  width: 431px;
+   font-family: 'Inter', sans-serif;
+  font-weight: 700;        
+  font-size: 24px;
+  line-height: 1.259;     
+  letter-spacing: 0.05em;
+}
+.image-container {
+  position: relative;
+  margin-left: 10px;
+  width: 460px;
+  /* aspect-ratio: 3/4; */
+  margin-top: 15px;
+  margin-left: 110px;
+  border-radius: 12px;
+  /* overflow: hidden; */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+/* .main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+/* .content {
+  max-width: 760px;
+  margin-left: 110px;
+  margin-top: 20px;
+} */
+
+/* h3,
+p,
+li {
+  font-family: 'Lexend Giga', sans-serif;
+  font-weight: 500;         
+  font-size: 24px;
+  line-height: 1.82;        
+  letter-spacing: -0.09em;   
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.images{
+  margin-left: 110px;
+} */
+/* .footer-divider {
+  height: 1px;
+  background-color: #8b3a3a;
+} */
+/* .aa{
+  display: flex;
+  flex-direction: column ;
+  align-items: end;
+  margin-right: 30px;
+} */
+.big-box{
+  display: flex;
+}
+.box1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box2{
+  display: none;
+  margin-top:50px;
+}
+ /* .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f5f7fa;
+  width: 100%;
+}
+
+.copyright {
+  font-family: 'Lexend Giga', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #b00000; 
+  margin: 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+  margin-right: 10px;
+}
+
+.social-icons a {
+  color: #b04a4a;
+  font-size: 28px;
+  text-decoration: none;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-icons a:hover {
+  color: #8b0000;
+  transform: scale(1.1); */
+/* }  */
+}
 
  /* .qr-code{
     margin-bottom: 100px;

@@ -1,11 +1,6 @@
 import './Funding.css';
 import FundraiserProgress from './FundraiserProgress.jsx';
-import { useState } from "react";
-
-
 const Hero = () => {
-
-const [readMore, setReadMore] = useState(false);
 
   return (
     <>
@@ -159,27 +154,34 @@ const [readMore, setReadMore] = useState(false);
     <img src="/achievement.png" className="ma"/>
     <img src="/upcommingevent.png" className="ma"/>
     <img src="/supportus.png" className="ma"/>
+    <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/-bwlOPy2lbA?si=47Jju2fjAySug0US" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen></iframe>
   </div>
   </div>
       </div>
       <div className='footer-divider'></div>
-      <footer class="footer-bottom">
-        <p class="copyright">
+      <footer className="footer-bottom">
+        <p className="copyright">
           Copyright © 2025 Team Unwired. All rights reserved.
         </p>
 
-        <div class="social-icons">
+        <div className="social-icons">
           <a href="#" aria-label="Facebook">
-            <i class="fab fa-facebook-f"></i>
+            <i className="fab fa-facebook-f"></i>
           </a>
           <a href="#" aria-label="Instagram">
-            <i class="fab fa-instagram"></i>
+            <i className="fab fa-instagram"></i>
           </a>
           <a href="#" aria-label="YouTube">
-            <i class="fab fa-youtube"></i>
+            <i className="fab fa-youtube"></i>
           </a>
           <a href="#" aria-label="LinkedIn">
-            <i class="fab fa-linkedin-in"></i>
+            <i className="fab fa-linkedin-in"></i>
           </a>
         </div>
       </footer>
