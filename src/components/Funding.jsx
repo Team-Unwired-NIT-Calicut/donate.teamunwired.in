@@ -31,14 +31,14 @@ const Hero = () => {
 <div className='box2'>
         <div>
             <img 
-            src="/qrcode.png" 
+            src="/newqr.png" 
             alt="Team Unwired Racing Car"
             className='qr-code'
           />
         </div>
         <div>
             <img 
-            src="/contactus.png" 
+            src="/newcontact.png" 
             alt="Team Unwired Racing Car"
             className='qr-code'
           />
