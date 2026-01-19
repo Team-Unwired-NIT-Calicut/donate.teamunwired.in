@@ -171,16 +171,16 @@ const Hero = () => {
         </p>
 
         <div className="social-icons">
-          <a href="#" aria-label="Facebook">
+          <a href="https://www.facebook.com/teamunwired/" aria-label="Facebook">
             <i className="fab fa-facebook-f"></i>
           </a>
-          <a href="#" aria-label="Instagram">
+          <a href="https://www.instagram.com/teamunwired_nitcalicut/" aria-label="Instagram">
             <i className="fab fa-instagram"></i>
           </a>
-          <a href="#" aria-label="YouTube">
+          <a href="https://www.youtube.com/@team_unwirednitc" aria-label="YouTube">
             <i className="fab fa-youtube"></i>
           </a>
-          <a href="#" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/company/team-unwired/?utm_source=ig&utm_medium=social&utm_content=link_in_bio" aria-label="LinkedIn">
             <i className="fab fa-linkedin-in"></i>
           </a>
         </div>
