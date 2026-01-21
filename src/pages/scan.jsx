@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import './Scan.css'
+import './scan.css'
 function Scan() {
   const navigate = useNavigate()
 
