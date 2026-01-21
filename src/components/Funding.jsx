@@ -1,14 +1,19 @@
 import './Funding.css';
 import FundraiserProgress from './FundraiserProgress.jsx';
+import { FaInstagram } from "react-icons/fa";
+import { CgYoutube } from "react-icons/cg";
+import { AiOutlineLinkedin } from "react-icons/ai";
+import { TiSocialFacebookCircular } from "react-icons/ti";
 const Hero = () => {
 
   return (
     <>
     <div className="hero-container">
       <div className='big-big-box'>
-      <div className="big-right-box">
-      </div>
-        <div className="big-left-box">
+      <div className="big-left-box">
+      </div> 
+        {/* // extra */}
+        <div className="big-right-box">
           <div className='crowd-funding-box'>
             <div className="text1">CROWD FUNDING</div>
           </div>
@@ -26,6 +31,17 @@ const Hero = () => {
             alt="Team Unwired Racing Car"
             className="main-image"
           />
+        </div>
+        <div className='next-button'>
+          <div className='text-button'>Next</div>
+        </div>
+        <div className='contact-box'>
+          <div className="contact-text">
+            <div>Contact Us:</div>
+            <div>Email: teamunwired@nitc.ac.in</div>
+            <div>Phone no: 9846504045</div>
+            <div>Team Manager: Adarsh S Sreedhar</div>
+          </div>
         </div>
 </div>
 <div className='box2'>
@@ -45,8 +61,7 @@ const Hero = () => {
         </div>
 </div>
 </div>
-        <div class="content">
-
+  <div class="content">
     <h3>Who We Are</h3>
 
     <p>
@@ -148,13 +163,13 @@ const Hero = () => {
 
   </div>
   <div className='images'>
-    <img src="/newshindu.png" className="ma1"/>
+    {/* <img src="/newshindu.png" className="ma1"/> */}
     <img src="/fsside.png" className="ma"/>
     <img src="/teamfs.png" className="ma"/>
     <img src="/achievement.png" className="ma"/>
     <img src="/upcommingevent.png" className="ma"/>
     <img src="/supportus.png" className="ma"/>
-    <iframe width="560" height="315" 
+    <iframe className="ma" width="560" height="315" 
     src="https://www.youtube.com/embed/-bwlOPy2lbA?si=47Jju2fjAySug0US" 
     title="YouTube video player" 
     frameborder="0" 
@@ -162,29 +177,32 @@ const Hero = () => {
     referrerpolicy="strict-origin-when-cross-origin" 
     allowfullscreen></iframe>
   </div>
-  </div>
-      </div>
-      <div className='footer-divider'></div>
-      <footer className="footer-bottom">
+  <footer className="footer-bottom">
         <p className="copyright">
           Copyright © 2025 Team Unwired. All rights reserved.
         </p>
+        <div className="footer-icons">
+          <a href="https://www.facebook.com/teamunwired/" target="_blank" rel="noopener noreferrer">
+            <TiSocialFacebookCircular className="footer-icon" />
+          </a>
 
-        <div className="social-icons">
-          <a href="https://www.facebook.com/teamunwired/" aria-label="Facebook">
-            <i className="fab fa-facebook-f"></i>
+          <a href="https://www.instagram.com/teamunwired_nitcalicut/" target="_blank" rel="noopener noreferrer">
+            <FaInstagram className="footer-icon" />
           </a>
-          <a href="https://www.instagram.com/teamunwired_nitcalicut/" aria-label="Instagram">
-            <i className="fab fa-instagram"></i>
+
+          <a href="https://www.youtube.com/@team_unwirednitc" target="_blank" rel="noopener noreferrer">
+            <CgYoutube className="footer-icon" />
           </a>
-          <a href="https://www.youtube.com/@team_unwirednitc" aria-label="YouTube">
-            <i className="fab fa-youtube"></i>
-          </a>
-          <a href="https://www.linkedin.com/company/team-unwired/?utm_source=ig&utm_medium=social&utm_content=link_in_bio" aria-label="LinkedIn">
-            <i className="fab fa-linkedin-in"></i>
+
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <AiOutlineLinkedin className="footer-icon" />
           </a>
         </div>
       </footer>
+  </div>
+      </div>
+      {/* <div className='footer-divider'></div> */}
+      
 
         </div>
 
