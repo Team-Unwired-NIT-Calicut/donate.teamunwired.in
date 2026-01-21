@@ -1,0 +1,34 @@
+.scan-container{
+    display: flex;
+    flex-direction: column;
+
+}
+.qr{    
+    display: flex;
+    flex-direction: row;
+    width: 478px;
+    height: 631px;
+}
+.back-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 286px;
+  height: 65px;
+  background-color: #F0F5FB;
+  border-radius: 46px;
+  border: none;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-left: 92px;
+  margin-top: 10px;
+}
+.text-buttonn{
+  width: 65px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;          /* Bold */
+  font-size: 32px;
+  line-height: normal;       /* matches 0% / auto line height */
+  letter-spacing: -0.09em;   /* -9% in Figma */
+  color: #6687CB;
+}

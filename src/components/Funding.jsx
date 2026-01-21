@@ -1,11 +1,13 @@
 import './Funding.css';
+import { useNavigate } from 'react-router-dom'
+
 import FundraiserProgress from './FundraiserProgress.jsx';
 import { FaInstagram } from "react-icons/fa";
 import { CgYoutube } from "react-icons/cg";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { TiSocialFacebookCircular } from "react-icons/ti";
 const Hero = () => {
-
+  const navigate = useNavigate()
   return (
     <>
     <div className="hero-container">
@@ -32,9 +34,14 @@ const Hero = () => {
             className="main-image"
           />
         </div>
-        <div className='next-button'>
-          <div className='text-button'>Next</div>
-        </div>
+        <button className='next-button'
+            onClick={() => navigate('/scan')}
+            style={{ cursor: 'pointer' }}
+          >
+          <div className='text-button'>
+            Next
+          </div>
+        </button>
         <div className='contact-box'>
           <div className="contact-text">
             <div>Contact Us:</div>
