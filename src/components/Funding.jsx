@@ -68,8 +68,8 @@ const Hero = () => {
         </div>
 </div>
 </div>
-  <div class="content">
-    <h3>Who We Are</h3>
+  <div className="content">
+    <h3 className="bold">Who We Are</h3>
 
     <p>
       Team Unwired is a completely student-run Formula Student team from NIT Calicut,
@@ -96,7 +96,7 @@ const Hero = () => {
       reliability, and innovation further than ever before.
     </p>
 
-    <p class="bold">Our goals include:</p>
+    <p className="bold">Our goals include:</p>
 
     <ul>
       <li>
@@ -122,7 +122,7 @@ const Hero = () => {
       contributions.
     </p>
 
-    <p class="bold">Immediate funding is critical to:</p>
+    <p className="bold">Immediate funding is critical to:</p>
 
     <ul>
       <li>
@@ -159,7 +159,7 @@ const Hero = () => {
       and on track.
     </p>
 
-    <p class="bold">All funds raised will be used exclusively for:</p>
+    <p className="bold">All funds raised will be used exclusively for:</p>
 
     <ul>
       <li>Vehicle design and development</li>
