@@ -43,7 +43,7 @@ function FundraiserProgress() {
             <span>{supporters} supporters</span>
           </div>
 
-          <div className="days-left">{daysLeft} days left</div>
+          {/* <div className="days-left">{daysLeft} days left</div> */}
         </div>
       </div>
   );
