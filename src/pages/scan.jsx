@@ -7,7 +7,7 @@ function Scan() {
     <div className="scan-container">
         <div>
             <img 
-            src="/newqr.png" 
+            src="/qrimg.png" 
             alt="Team Unwired Racing Car"
             className='qr'
           />

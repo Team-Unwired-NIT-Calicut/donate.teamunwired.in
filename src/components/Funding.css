@@ -46,7 +46,7 @@
     color: #8C0100;
     font-family: "Bruno Ace SC", sans-serif;
     font-weight:300;
-    font-size: 96px;
+    font-size: 93px;
     margin-left: 86px;
     height: 174px;
     width: auto;
@@ -107,6 +107,11 @@
 }
 .contact-box{
   display: none;
+}
+
+.qr-codee{
+  width: 426px;
+  margin-top: 6px;
 }
 .content {
   max-width: 760px;
@@ -225,7 +230,7 @@ li {
     font-weight:300;
     font-size: 26px;
     margin-left: 38px;
-    height: 29px;
+    height: 46px;
     width: 100%;
     padding: 8px 0 0 0;
 }
