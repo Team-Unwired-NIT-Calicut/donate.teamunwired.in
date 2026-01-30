@@ -186,7 +186,7 @@ const Hero = () => {
   </div>
   <footer className="footer-bottom">
         <p className="copyright">
-          Copyright © 2025 Team Unwired. All rights reserved.
+          Copyright © 2026 Team Unwired. All rights reserved.
         </p>
         <div className="footer-icons">
           <a href="https://www.facebook.com/teamunwired/" target="_blank" rel="noopener noreferrer">
