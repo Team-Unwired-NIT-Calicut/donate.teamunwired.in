@@ -54,7 +54,7 @@ const Hero = () => {
 <div className='box2'>
         <div>
             <img 
-            src="/newqr.png" 
+            src="/qrimg.png" 
             alt="Team Unwired Racing Car"
             className='qr-code'
           />
