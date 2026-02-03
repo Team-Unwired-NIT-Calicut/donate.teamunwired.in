@@ -59,12 +59,13 @@ const Hero = () => {
             className='qr-code'
           />
         </div>
-        <div>
-            <img 
-            src="/newcontact.png" 
-            alt="Team Unwired Racing Car"
-            className='qr-code'
-          />
+        <div className='contact-box1'>
+          <div className="contact-text">
+            <div>Contact Us:</div>
+            <div>Email: teamunwired@nitc.ac.in</div>
+            <div>Phone no: 9846504045</div>
+            <div>Team Manager: Adarsh S Sreedhar</div>
+          </div>
         </div>
 </div>
 </div>

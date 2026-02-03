@@ -108,6 +108,29 @@
 .contact-box{
   display: none;
 }
+.contact-box1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F3F6FD;
+  opacity: 1;
+  border-radius: 39px;
+  border: none;
+  width: 486px;
+  height: 188px;
+  margin-left: 1px;
+  margin-top: 15px;
+}
+.contact-text{
+  font-family: 'Lexend Exa', sans-serif;
+  font-weight: 500;          /* Medium */
+  font-size: 24px;
+
+  line-height: 1.82;         /* 182% */
+  letter-spacing: -0.09em;   /* -9% */
+
+  color: #404348;
+}
 .content {
   max-width: 760px;
   margin-left: 110px;
@@ -225,7 +248,7 @@ li {
     font-weight:300;
     font-size: 26px;
     margin-left: 38px;
-    height: 29px;
+    height: 44px;
     width: 100%;
     padding: 8px 0 0 0;
 }
