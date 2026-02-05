@@ -88,7 +88,6 @@ const Hero = () => {
     </p>
 
     <ul>
-      <li>Formula Bharat</li>
       <li>SUPRA SAEINDIA</li>
     </ul>
 
@@ -103,11 +102,6 @@ const Hero = () => {
       <li>
         Designing and building a new, improved Formula Student race car, fully
         engineered, manufactured, and assembled by students.
-      </li>
-      <li>
-        Competing at Formula Bharat 2026, to be held at Kari Motor Speedway,
-        Coimbatore, from January 21–24, 2026 – the landmark 10th edition of India’s
-        premier Formula Student competition.
       </li>
       <li>
         Preparing for SUPRA SAEINDIA 2026, scheduled between mid-July and mid-August
@@ -166,7 +160,7 @@ const Hero = () => {
       <li>Vehicle design and development</li>
       <li>Component procurement</li>
       <li>Fabrication and testing</li>
-      <li>Participation in Formula Bharat 2026 and SUPRA SAEINDIA 2026</li>
+      <li>Participation in SUPRA SAEINDIA 2026</li>
     </ul>
 
   </div>
@@ -210,12 +204,8 @@ const Hero = () => {
   </div>
       </div>
       {/* <div className='footer-divider'></div> */}
-      
-
         </div>
-
     </>
-   
   )
 }
 
