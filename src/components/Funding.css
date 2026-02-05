@@ -32,7 +32,7 @@
 .big-right-box{
     display: flex;
     flex-direction: column;
-    height: 6644px;
+    height: 6388px;
     background-color: #ffffff;
     border-radius: 0 0 70px 70px;
 }
@@ -226,7 +226,7 @@ li {
 .big-right-box{
     display: flex;
     flex-direction: column;
-    height: 5218px;
+    height: 5004px;
     background-color: #ffffff;
     border-radius: 0 0 70px 70px;
 }
