@@ -1,11 +1,13 @@
 .scan-container{
     display: flex;
     flex-direction: column;
+    align-items: center;
 
 }
 .qr{    
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 389px;
     height: 500px;
     margin-top: 10px;
@@ -21,7 +23,6 @@
   border-radius: 46px;
   border: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  margin-left: 53px;
   margin-top: 10px;
 }
 .text-buttonn{
