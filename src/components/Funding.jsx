@@ -165,7 +165,6 @@ const Hero = () => {
 
   </div>
   <div className='images'>
-    {/* <img src="/newshindu.png" className="ma1"/> */}
     <img src="/fsside.png" className="ma"/>
     <img src="/teamfs.png" className="ma"/>
     <img src="/achievement.png" className="ma"/>
@@ -203,7 +202,6 @@ const Hero = () => {
       </footer>
   </div>
       </div>
-      {/* <div className='footer-divider'></div> */}
         </div>
     </>
   )
